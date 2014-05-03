@@ -1,0 +1,23 @@
+name: StopBreak
+version: 1.0
+main: io.github.ferusgrim.StopBreak.StopBreak
+description: Stops players from breaking blocks in a protected world.
+author: FerusGrim
+website: http://ferusgrim.github.io
+commands:
+  stopbreak:
+    description: Main command for StopBreak
+    aliases: [sb]
+    usage: |
+      /stopbreak <worldname>
+      If a world isn't specified, will use current world.
+permissions:
+  stopbreak.*:
+    description: Grants access to add/help.
+    children:
+      stopbreak.add: true
+      stopbreak.help: true
+  stopbreak.add:
+    description: Can add a world to the whitelist.
+  stopbreak.help:
+    description: Can view the help text.

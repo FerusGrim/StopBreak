@@ -1,0 +1,6 @@
+Enabled: true
+StopOPs: true
+Protected-Worlds:
+- world
+- world_nether
+- world_the_end
